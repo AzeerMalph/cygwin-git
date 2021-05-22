@@ -1,7 +1,7 @@
 # test
 test git clone on cygwin.
 1. Run setup.exe for cygwin
-2. Add git related packages, add openssh, add GnuPG
+2. Add git related packages, add openssh, add GnuPG version 2
 3. update git config with usernames and email
 * git config --global user.name "John Doe"
 * git config --global user.email "JohnDoe@somewhere.com"
@@ -18,3 +18,14 @@ test git clone on cygwin.
 * SSH and GPG keys tab
 * New SSH key
 * add title, paste key, and add SSH key
+6. Setup new GPG key, in this case try using gpg2 command
+* Add GPG key to github account
+7. Store git push credential
+* git config credential.helper store
+* git push
+* enter username and password
+* if using 2FA then the password must be a personal token
+* generate this personal token from settings > developer settings > personal access tokens
+* click Generate new token
+* add repo permission
+* copy the generated token and keep it safe, this will be the password
