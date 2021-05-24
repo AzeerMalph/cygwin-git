@@ -1,5 +1,5 @@
 # test
-test git commands on cygwin. Useful instructions for a new installation of cygwin and git together
+test git commands on cygwin. Useful instructions for a new installation of cygwin and git together. These instructions assumes a little bit of fill in the blank during implementation. Github also provides very detailed (and useful) help pages.
 1. Run setup.exe for cygwin
 2. Add git related packages, add openssh, add GnuPG version 2
 3. update git config with usernames and email
