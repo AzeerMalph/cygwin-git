@@ -19,7 +19,11 @@ test git commands on cygwin. Useful instructions for a new installation of cygwi
 * New SSH key
 * add title, paste key, and add SSH key
 6. Setup new GPG key, in this case try using gpg2 command
-* Add GPG key to github account
+* Navigate to add GPG key to github account
+* Follow the help "generate a GPG key and add it to your account"
+* Follow instructions to generate GPG key, using gpg2 command instead of gpg if needed
+* Copy the generated GPG key based on instructions given on the help page
+* Add the GPG key to git account
 7. Store git push credential
 * git config credential.helper store
 * git push
