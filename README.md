@@ -1,7 +1,7 @@
 # cygwin-git: installing git commands on cygwin 
 Useful instructions for a new installation of cygwin and git together. These instructions assumes a little bit of user fill in the blank during implementation. Github also provides very detailed (and useful) help pages.
 1. Run setup.exe for cygwin
-2. Add git related packages, add openssh, add GnuPG version 2
+2. Add git related packages, add openssh, add GnuPG version 2, add vim for editor
 3. update git config with usernames and email
 * git config --global user.name "John Doe"
 * git config --global user.email "JohnDoe@somewhere.com"
